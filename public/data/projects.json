@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "quiz",
+    "name": "Quiz App",
+    "url": "https://quiz.land.me.uk",
+    "tagline": "Free live quizzes for classrooms, parties and solo practice.",
+    "description": "Host a live quiz with a 6-digit code, play Party Mode with up to 8 friends, or practice solo. 12 subjects, real-time leaderboards, no signup.",
+    "icon": "fa-bolt",
+    "accent": "#2563eb",
+    "status": "live"
+  },
+  {
+    "slug": "earn",
+    "name": "Earn Online",
+    "url": "https://earn.land.me.uk",
+    "tagline": "600+ verified ways to earn money online.",
+    "description": "A curated directory of legitimate earning platforms — crypto faucets, paid surveys, cashback, freelancing, micro-tasks and more. Community trust scores.",
+    "icon": "fa-coins",
+    "accent": "#059669",
+    "status": "live"
+  },
+  {
+    "slug": "tools",
+    "name": "Tools",
+    "url": "https://tools.land.me.uk",
+    "tagline": "Free calculators for freelancers and side-hustlers.",
+    "description": "Earnings calculators, freelance rate tools, tax estimators and profit trackers. No signup, no tracking.",
+    "icon": "fa-calculator",
+    "accent": "#7c3aed",
+    "status": "soon"
+  }
+]
