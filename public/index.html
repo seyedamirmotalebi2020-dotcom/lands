@@ -230,12 +230,18 @@
     /* Footer */
     .footer { text-align: center; padding: 3rem 2rem; color: var(--text-dim); font-size: 0.9rem; }
     .footer a { color: var(--neon); text-decoration: none; }
+ /* SVG Timeline */
 
     /* Reduced Motion */
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; transition: none !important; }
       .logo-ring, .logo-l { stroke-dashoffset: 0; }
       .logo-dot, .intro__scroll, .hub__header, .proj { opacity: 1; transform: none; }
+          .intro__logo {
+      width: clamp(8rem, 22vw, 160px);
+      margin-bottom: 2rem;
+      margin-top: -1rem;
+    }
     }
   </style>
 </head>
@@ -243,7 +249,7 @@
   <a href="#hub" class="skip-link">Skip to projects</a>
 
   <section class="intro" aria-label="Introduction">
-    <div class="intro__stage">
+    <div class="">
       <svg   
    viewBox="0 0 194.49875 261.29202"
    version="1.1"
